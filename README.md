@@ -15,7 +15,7 @@
   <img src="./readme-assets/main-feed-dark.PNG" alt="Dark mode feed" style="border: 1px solid #444; max-width:70%; height:auto;">
 </p>
 
-[GitHub Repo Link]
+[GitHub Repo Link](https://github.com/Landuche/social-network)
 
 This project was built as a professional portfolio application, demonstrating production-grade architecture, atomic database operations, optimized queries, and clean separation between frontend, backend, and business logic.
 
@@ -70,29 +70,57 @@ It provides a social feed with infinite scrolling, dynamic post interactions, re
 | Configuration         | python-dotenv + dj-database-url          | Single codebase between local and docker     |
 | Containerization      | Docker + Docker Compose                  | Reproducible environment                     |
 
-## Run Locally
+## Setup And Run
+
+### Run Locally
 
 ```bash
-git clone <repo-url>
-cd <project-folder>
+git clone https://github.com/Landuche/social-network
+cd social-network
+cp .env.local.example .env.local # Configure your database on this file
 python -m venv venv
 venv\Scripts\activate
-pip install -r requirements-dev.txt
+pip install -r requirements-local.txt
 pip install python-magic-bin
 python manage.py migrate
 python manage.py collectstatic
 python manage.py runserver
 ```
 
-## Run with Docker
+### Run Container With Docker
 
 ```bash
+cp .env.example .env # Configure your database on this file
 docker compose up --build
+```
+
+## Data Initialization
+
+### Seed Database Locally
+
+```bash
+Copy-Item -Path .\fixtures\assets\ -Destination .\media -Recurse -Force
+python manage.py loaddata fixtures\initial_data.json
+```
+
+### Seed Database On Docker
+
+```bash
+docker cp ./fixtures/assets/profile_pics/ social-network-web-1:/app/media
+docker compose exec web python manage.py loaddata fixtures/initial_data.json
 ```
 
 ## Testing
 
+### Test Locally
+
 ```bash
 pip install -r requirements-test.txt
 pytest -v -n auto
+```
+
+### Test Container On Docker
+
+```bash
+docker compose exec web python -m pytest -v -n auto
 ```
