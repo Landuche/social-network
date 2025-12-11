@@ -1,0 +1,106 @@
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes fadeInExpand {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  75% {
+    opacity: 0.5;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeOutShrink {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+}
+
+@keyframes fadeInSlideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeOutSlideUp {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes fadeOutCollapse {
+  from {
+    opacity: 1;
+    height: var(--initial-height);
+    margin: var(--initial-margin);
+    padding: var(--initial-padding);
+  }
+  to {
+    opacity: 0;
+    height: 0;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.fade-out-collapse {
+  overflow: hidden;
+  animation-name: fadeOutCollapse;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+  will-change: transform, opacity;
+}
+
+.fade-in-slide-down {
+  animation-name: fadeInSlideDown;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+  will-change: transform, opacity;
+}
+
+.fade-out-slide-up {
+  animation-name: fadeOutSlideUp;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+  will-change: transform, opacity;
+}
+
+.fade-in-expand {
+  animation-name: fadeInExpand;
+  animation-timing-function: ease-out;
+  will-change: transform, opacity;
+}
+
+.fade-out-shrink {
+  animation-name: fadeOutShrink;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+  will-change: transform, opacity;
+}

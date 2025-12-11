@@ -1,0 +1,139 @@
+// constants.js
+// Defines application-wide constants, messages, and UI styles.
+
+// General Constants
+export const PROJECT_NAME = 'Network';
+export const MAX_POST_LENGTH = 250;
+export const MAX_IMAGE_SIZE = 5 * 1024 * 1024; // 5MB
+
+// Action Constants
+export const ACTIONS = {
+    REGISTER: 'register',
+    LOGIN: 'login',
+    POST: {
+        LIKE: 'like',
+        DROPDOWN: 'dropdown',
+        EDIT: 'edit',
+        DELETE: 'delete',
+        CANCEL_EDIT: 'cancel-edit',
+        SAVE_EDIT: 'save-edit',
+        USER_PROFILE: 'user-profile',
+        COMMENT_USER_PROFILE: 'comment-user-profile',
+        COMMENTS: 'comments',
+        CREATE_COMMENT: 'create-comment'
+    },
+    PROFILE: {
+        FOLLOW: 'follow',
+        EDIT: 'edit-profile'
+    },
+    COMMENT: {
+        EDIT: 'edit-comment',
+        CANCEL_EDIT: 'cancel-edit-comment',
+        DELETE: 'delete-comment',
+        SAVE_EDIT: 'save-edit-comment'
+    }
+};
+
+// Filter Constants
+export const FILTERS = {
+    ALL: 'all',
+    FOLLOWING: 'following',
+    PROFILE: 'profile'
+};
+
+// Application Messages
+export const MESSAGES = {
+    ERROR: 'Error. Please try again.',
+    NO_CHANGES: 'No changes detected.',
+    ERROR_EMPTY_FIELD: 'Field cannot be empty.',
+    post: {
+        errors: {
+            dev: {
+                INVALID_ID: 'Invalid post id.',
+                INVALID_DATA: 'Invalid post data.'
+            },
+            ui: {
+                NO_POSTS_FOUND: 'No posts found.',
+                EMPTY: 'Content cannot be empty. Please try again.',
+                EXCEEDS_LIMIT: 'Content exceeds character limit. Please try again.',
+                INVALID_CONTENT: 'Invalid content. Please try again.',
+                ERROR_LOADING_POSTS: 'Cannot load posts. Please try again.',
+                ERROR_CREATING_POST: 'Cannot create post. Please try again.',
+                ERROR_LIKING_POST: 'Cannot like the post. Please try again.',
+                ERROR_DELETING_POST: 'Cannot delete the post. Please try again.',
+                ERROR_SAVING_POST: 'Cannot save the post. Please try again.'
+            }
+        },
+        success: {
+            CREATED: 'Post published successfully.',
+            UPDATED: 'Post updated successfully.'
+        },
+    },
+    profile: {
+        success: {
+            ui: {
+                SUCCESS_PROFILE_EDIT: 'Profile edited successfully.'
+            }
+        },
+        errors: {
+            dev: {
+                INVALID_ID: 'Invalid profile id.',
+                INVALID_DATA: 'Invalid profile data.'
+            },
+            ui: {
+                ERROR_FOLLOWING_USER: 'Cannot follow user. Please try again.',
+                ERROR_LOADING_PROFILE: 'Cannot load profile. Please try again.',
+                USERNAME_ERROR: 'Username must be between 3 and 50 characters.',
+                INVALID_EMAIL: 'Invalid email.'
+            }
+        }
+    },
+    dom: {
+        modal: {
+            info: {
+                DEFAULT: 'Are you sure you want to proceed?',
+                CONFIRM_DELETE: 'Are you sure you want to delete?'
+            }
+        }
+    }
+};
+
+// UI Styles
+export const Styles = {
+    WHITE_MODE_TOGGLE: 'fa-solid fa-moon',
+    WHITE_MODE_NAV: 'navbar navbar-expand-xl navbar-light',
+    DARK_MODE_TOGGLE: 'fa-solid fa-sun',
+    DARK_MODE_NAV: 'navbar navbar-expand-xl navbar-dark',
+
+    buttons: {
+        LIKED: {
+            className: 'like-btn fa-sharp fa-solid fa-heart',
+            color: '#c61010'
+        },
+        UNLIKED: {
+            className: 'like-btn fa-sharp fa-regular fa-heart'
+        },
+        FOLLOW: {
+            className: 'btn btn-primary profile-btn',
+            textContent: 'Follow'
+        },
+        UNFOLLOW: {
+            className: 'btn btn-secondary profile-btn',
+            textContent: 'Unfollow'
+        },
+        EDIT_PROFILE: {
+            elType: 'button',
+            className: 'btn btn-secondary profile-btn',
+            dataset: { action: ACTIONS.PROFILE.EDIT },
+            textContent: 'Edit Profile'
+        }
+    }
+};
+
+export const Constants = {
+    PROJECT_NAME,
+    MAX_POST_LENGTH,
+    MAX_IMAGE_SIZE,
+    ACTIONS,
+    FILTERS
+};

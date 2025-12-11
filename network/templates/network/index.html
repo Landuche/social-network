@@ -1,0 +1,51 @@
+{% extends "network/layout.html" %} {% load static %} {% block body %}
+<div class="network-app" id="network-app">
+  <div class="page-content container-fluid" id="page-content">
+    <div id="modal-container"></div>
+    <!-- Profile Section -->
+    <div class="profile-section mt-2" id="profile-section">
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-9 col-lg-7 col-xl-6">
+          <div class="profile-card shadow border p-4" id="profile-card">
+            <div class="d-flex flex-column flex-md-row align-items-center gap-4" id="profile-header">
+              <img class="profile-picture rounded-circle" id="profile-picture" />
+              <div class="flex-grow-1 text-center text-md-start">
+                <h4 class="profile-name mb-2" id="profile-name"></h4>
+                <h6 class="followers-count" id="followers-count">
+                  Followers: <span id="followers-count-value"></span>
+                </h6>
+                <h6 class="following-count" id="following-count">
+                  Following: <span id="following-count-value"></span>
+                </h6>
+                <h6 class="post-count" id="post-count">
+                  Posts: <span id="post-count-value"></span>
+                </h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+
+    <!-- Feed Section -->
+    <div class="feed-section" id="feed-section">
+      <div class="row justify-content-center mb-4" id="new-post-row">
+        <div class="col-12 col-md-9 col-lg-7 col-xl-6">
+          <div class="new-post-form-container shadow border p-4" id="new-post-form-container">
+            <h4 class="mb-3">New Post</h4>
+            <form id="post-form">
+                <textarea class="form-control mb-3" name="form-text" id="form-text" rows="3"></textarea>
+                <input type="submit" class="btn btn-primary mt-3 mb-1" id="submit-post" value="Post"/>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="posts-feed" id="posts-feed">
+          <!-- Posts... -->
+        </div>
+      </div>
+      <div class="message-container d-flex justify-content-center mt-3" id="message-container"></div>
+    </div>
+  </div>
+</div>
+{% endblock %}
