@@ -4,7 +4,7 @@
   "pk": 1,
   "fields": {
     "password": "pbkdf2_sha256$1200000$5c3D6U8PvOpr3SO7LdTbiJ$Ingr1uF0BqnhFfKmJABw3TlEU/OYBpzSq/nYPyKeoCM=",
-    "last_login": "2025-12-11T15:31:59.977Z",
+    "last_login": "2025-12-11T19:12:38.200Z",
     "is_superuser": false,
     "first_name": "",
     "last_name": "",
@@ -15,12 +15,14 @@
     "email": "pikachu@mail.com",
     "folder_uuid": "34ef4ef2-ffbd-4d2a-bf95-456b526675b0",
     "profile_picture": "profile_pics/34ef4ef2-ffbd-4d2a-bf95-456b526675b0/d7c2c2ab-6c5c-4679-bcdd-403c6f5bfdbf.png",
-    "post_count": 0,
-    "followers_count": 0,
-    "following_count": 0,
+    "post_count": 1,
+    "followers_count": 1,
+    "following_count": 5,
     "groups": [],
     "user_permissions": [],
-    "followers": []
+    "followers": [
+      6
+    ]
   }
 },
 {
@@ -40,12 +42,13 @@
     "folder_uuid": "43e33aed-7a41-4236-ba5a-de765a9ca44a",
     "profile_picture": "profile_pics/43e33aed-7a41-4236-ba5a-de765a9ca44a/4be38bca-3bec-4ad6-a9f4-3f2a14f2645e.png",
     "post_count": 1,
-    "followers_count": 1,
+    "followers_count": 2,
     "following_count": 0,
     "groups": [],
     "user_permissions": [],
     "followers": [
-      3
+      3,
+      4
     ]
   }
 },
@@ -54,7 +57,7 @@
   "pk": 3,
   "fields": {
     "password": "pbkdf2_sha256$1200000$tYsWPOv0BJdsUXhvpsgIUg$WZ8lJTxBdJb2av0EwQXpw1PJ/zJlaC/IOPOLNiiW8pA=",
-    "last_login": "2025-12-11T16:32:48.184Z",
+    "last_login": "2025-12-11T18:53:05.784Z",
     "is_superuser": false,
     "first_name": "",
     "last_name": "",
@@ -65,12 +68,247 @@
     "email": "meowth@mail.com",
     "folder_uuid": "6d07f4ec-7ee1-4a70-9e8a-d4907454f9eb",
     "profile_picture": "profile_pics/6d07f4ec-7ee1-4a70-9e8a-d4907454f9eb/63f46aeb-b50f-4993-a6c1-bfa075edb5dd.png",
+    "post_count": 1,
+    "followers_count": 0,
+    "following_count": 2,
+    "groups": [],
+    "user_permissions": [],
+    "followers": []
+  }
+},
+{
+  "model": "network.user",
+  "pk": 4,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$hGUd5UpWDtPVGhVqf3F5Ha$R0tC2++Fc0Ui8CTuV5t1lbMvoIugkRTC4X6il5B3klI=",
+    "last_login": "2025-12-11T19:12:52.183Z",
+    "is_superuser": false,
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-12-11T18:33:57.517Z",
+    "username": "Bulbasaur",
+    "email": "bulbasaur@mail.com",
+    "folder_uuid": "304c6121-92d7-40fb-b0de-1d55b62b570d",
+    "profile_picture": "profile_pics/304c6121-92d7-40fb-b0de-1d55b62b570d/10534538-891b-4973-bed8-4110d930f974.png",
+    "post_count": 1,
+    "followers_count": 2,
+    "following_count": 2,
+    "groups": [],
+    "user_permissions": [],
+    "followers": [
+      1,
+      5
+    ]
+  }
+},
+{
+  "model": "network.user",
+  "pk": 5,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$BHZA3UejRZCX9vemV3uVHU$DThoub85SF74C6WP4rcLFfrgzFij+oP6YVfUIC3UYHA=",
+    "last_login": "2025-12-11T19:10:05.195Z",
+    "is_superuser": false,
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-12-11T18:36:27.808Z",
+    "username": "Snorlax",
+    "email": "snorlax@mail.com",
+    "folder_uuid": "d91e74cd-8a2a-4d3f-aaa1-2970ebb1349f",
+    "profile_picture": "profile_pics/d91e74cd-8a2a-4d3f-aaa1-2970ebb1349f/f90757d8-5881-44ab-83ea-76c1458a6f0a.png",
+    "post_count": 2,
+    "followers_count": 3,
+    "following_count": 1,
+    "groups": [],
+    "user_permissions": [],
+    "followers": [
+      1,
+      4,
+      7
+    ]
+  }
+},
+{
+  "model": "network.user",
+  "pk": 6,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$xOoO7nz9M4jHVebX7YvAOW$3KEh+tXpuw/X8yF6NsaUXc9QAj1y66XzWrwqccoy0JY=",
+    "last_login": "2025-12-11T18:56:13.444Z",
+    "is_superuser": false,
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-12-11T18:41:18.717Z",
+    "username": "Dragonite",
+    "email": "dragonite@mail.com",
+    "folder_uuid": "98bc892c-6acf-4b3b-b0e7-6e0e5aa693e4",
+    "profile_picture": "profile_pics/98bc892c-6acf-4b3b-b0e7-6e0e5aa693e4/60156292-ede3-4d9d-8f8d-76fa6b0dd08d.png",
+    "post_count": 1,
+    "followers_count": 1,
+    "following_count": 2,
+    "groups": [],
+    "user_permissions": [],
+    "followers": [
+      3
+    ]
+  }
+},
+{
+  "model": "network.user",
+  "pk": 7,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$oe6y83D4elP6DA0ExxurUX$hkmBeXiGJeJxA447nuhgpvpX2cQR+7xEnR/2qGr99/4=",
+    "last_login": "2025-12-11T18:44:09.868Z",
+    "is_superuser": false,
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-12-11T18:44:08.944Z",
+    "username": "Psyduck",
+    "email": "psyduck@mail.com",
+    "folder_uuid": "0697f5be-9fe5-4eeb-ad0a-54570908b220",
+    "profile_picture": "profile_pics/0697f5be-9fe5-4eeb-ad0a-54570908b220/7e77bf85-968a-4ae8-8657-89e889ed9ec4.png",
+    "post_count": 1,
+    "followers_count": 0,
+    "following_count": 1,
+    "groups": [],
+    "user_permissions": [],
+    "followers": []
+  }
+},
+{
+  "model": "network.user",
+  "pk": 8,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$rnPItydxy6AWx6C2hdqMpO$35l9HetI1SMug6nGEhDh1g7BK1ftW3MmPulSbxEgOFs=",
+    "last_login": "2025-12-11T18:54:17.514Z",
+    "is_superuser": false,
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-12-11T18:54:16.690Z",
+    "username": "Gengar",
+    "email": "gengar@mail.com",
+    "folder_uuid": "33baabdd-e5e1-46a0-a2c9-83ba297c7b87",
+    "profile_picture": "profile_pics/33baabdd-e5e1-46a0-a2c9-83ba297c7b87/8f81fddf-72c2-4d22-ab4a-a72919b91444.png",
+    "post_count": 1,
+    "followers_count": 2,
+    "following_count": 0,
+    "groups": [],
+    "user_permissions": [],
+    "followers": [
+      1,
+      10
+    ]
+  }
+},
+{
+  "model": "network.user",
+  "pk": 9,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$GXV83KflH31sIRPyF4hZVy$sWPIqwD0Age2HUQINXySOYfqa/G5QziCixC/7DgyPpg=",
+    "last_login": "2025-12-11T18:55:09.359Z",
+    "is_superuser": false,
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-12-11T18:55:08.567Z",
+    "username": "Mewtwo",
+    "email": "mewtwo@mail.com",
+    "folder_uuid": "57e10022-c817-457f-8d99-884e449004d3",
+    "profile_picture": "profile_pics/57e10022-c817-457f-8d99-884e449004d3/634316b8-00ec-4d57-a648-c60a3310cdd7.png",
+    "post_count": 1,
+    "followers_count": 2,
+    "following_count": 0,
+    "groups": [],
+    "user_permissions": [],
+    "followers": [
+      1,
+      6
+    ]
+  }
+},
+{
+  "model": "network.user",
+  "pk": 10,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$hOTPgKMnHt35jKcrvj3LCa$WYQCvADy1u5KSIiRk6D2VPMGbyBLLlu0YV2E3RL2bVQ=",
+    "last_login": "2025-12-11T19:08:17.200Z",
+    "is_superuser": false,
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-12-11T19:03:26.573Z",
+    "username": "Groudon",
+    "email": "groudon@mail.com",
+    "folder_uuid": "9bfede3e-1093-4682-b4a8-a8831da1a2b7",
+    "profile_picture": "profile_pics/9bfede3e-1093-4682-b4a8-a8831da1a2b7/7fc05cde-b261-439c-b6d5-3b94add8db8b.png",
+    "post_count": 0,
+    "followers_count": 0,
+    "following_count": 2,
+    "groups": [],
+    "user_permissions": [],
+    "followers": []
+  }
+},
+{
+  "model": "network.user",
+  "pk": 11,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$hkjtKXzQ6MkTAX1mcIgUwb$saGnweeFKggMXfVM9foW34up9xVe/g7Sy2eamtCqG78=",
+    "last_login": "2025-12-11T19:09:33.751Z",
+    "is_superuser": false,
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-12-11T19:03:46.677Z",
+    "username": "Kyogre",
+    "email": "kyogre@mail.com",
+    "folder_uuid": "3e94f055-de48-4a19-98f5-eace0aa9a5cd",
+    "profile_picture": "profile_pics/3e94f055-de48-4a19-98f5-eace0aa9a5cd/8f9e0270-ac24-46e1-994b-2cd2e25716cb.jpg",
     "post_count": 0,
     "followers_count": 0,
     "following_count": 1,
     "groups": [],
     "user_permissions": [],
     "followers": []
+  }
+},
+{
+  "model": "network.user",
+  "pk": 12,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$alyka82TMZgCodVSNssDb2$ED6QVfazkZq3eJBB68OqSc0ngR/rH+m1yKF1l3Q54tE=",
+    "last_login": "2025-12-11T19:07:01.572Z",
+    "is_superuser": false,
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-12-11T19:07:00.787Z",
+    "username": "Rayquaza",
+    "email": "rayquaza@mail.com",
+    "folder_uuid": "18ff8b70-50d3-474a-bc90-528c6c8e2f2f",
+    "profile_picture": "profile_pics/18ff8b70-50d3-474a-bc90-528c6c8e2f2f/3cd79772-4562-497a-880b-b3c6dfb9ae45.png",
+    "post_count": 1,
+    "followers_count": 3,
+    "following_count": 0,
+    "groups": [],
+    "user_permissions": [],
+    "followers": [
+      1,
+      10,
+      11
+    ]
   }
 },
 {
@@ -88,6 +326,150 @@
   }
 },
 {
+  "model": "network.post",
+  "pk": 3,
+  "fields": {
+    "user": 4,
+    "timestamp": "2025-12-11T18:34:11.840Z",
+    "content": "Morning sunlight hits different when you are a plant",
+    "like_count": 2,
+    "comment_count": 0,
+    "likes": [
+      3,
+      5
+    ]
+  }
+},
+{
+  "model": "network.post",
+  "pk": 4,
+  "fields": {
+    "user": 5,
+    "timestamp": "2025-12-11T18:36:45.132Z",
+    "content": "Woke up, ate 47 Oran berries, went back to sleep. Solid day",
+    "like_count": 2,
+    "comment_count": 0,
+    "likes": [
+      3,
+      7
+    ]
+  }
+},
+{
+  "model": "network.post",
+  "pk": 5,
+  "fields": {
+    "user": 6,
+    "timestamp": "2025-12-11T18:41:34.481Z",
+    "content": "Delivered mail to 12 islands before breakfast",
+    "like_count": 1,
+    "comment_count": 0,
+    "likes": [
+      3
+    ]
+  }
+},
+{
+  "model": "network.post",
+  "pk": 6,
+  "fields": {
+    "user": 7,
+    "timestamp": "2025-12-11T18:45:22.235Z",
+    "content": "Another day another headache",
+    "like_count": 2,
+    "comment_count": 0,
+    "likes": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "network.post",
+  "pk": 7,
+  "fields": {
+    "user": 3,
+    "timestamp": "2025-12-11T18:53:13.945Z",
+    "content": "Meowth, thats right!",
+    "like_count": 0,
+    "comment_count": 0,
+    "likes": []
+  }
+},
+{
+  "model": "network.post",
+  "pk": 8,
+  "fields": {
+    "user": 8,
+    "timestamp": "2025-12-11T18:54:40.062Z",
+    "content": "See ya in the shadows",
+    "like_count": 1,
+    "comment_count": 0,
+    "likes": [
+      10
+    ]
+  }
+},
+{
+  "model": "network.post",
+  "pk": 9,
+  "fields": {
+    "user": 9,
+    "timestamp": "2025-12-11T18:55:12.678Z",
+    "content": "boring",
+    "like_count": 0,
+    "comment_count": 0,
+    "likes": []
+  }
+},
+{
+  "model": "network.post",
+  "pk": 10,
+  "fields": {
+    "user": 1,
+    "timestamp": "2025-12-11T18:55:54.527Z",
+    "content": "i really miss some ketchup",
+    "like_count": 2,
+    "comment_count": 2,
+    "likes": [
+      5,
+      6
+    ]
+  }
+},
+{
+  "model": "network.post",
+  "pk": 11,
+  "fields": {
+    "user": 12,
+    "timestamp": "2025-12-11T19:07:19.030Z",
+    "content": "weather is looking kinda sus lately",
+    "like_count": 4,
+    "comment_count": 2,
+    "likes": [
+      1,
+      5,
+      10,
+      11
+    ]
+  }
+},
+{
+  "model": "network.post",
+  "pk": 12,
+  "fields": {
+    "user": 5,
+    "timestamp": "2025-12-11T19:10:38.975Z",
+    "content": "so hungry that i could eat two number nine and a number nine large",
+    "like_count": 2,
+    "comment_count": 0,
+    "likes": [
+      1,
+      4
+    ]
+  }
+},
+{
   "model": "network.comment",
   "pk": 1,
   "fields": {
@@ -95,6 +477,46 @@
     "post": 2,
     "content": "Meowth!",
     "timestamp": "2025-12-11T16:33:03.087Z"
+  }
+},
+{
+  "model": "network.comment",
+  "pk": 2,
+  "fields": {
+    "user": 6,
+    "post": 10,
+    "content": "i can get you some",
+    "timestamp": "2025-12-11T18:56:21.610Z"
+  }
+},
+{
+  "model": "network.comment",
+  "pk": 3,
+  "fields": {
+    "user": 11,
+    "post": 11,
+    "content": "lol",
+    "timestamp": "2025-12-11T19:08:07.697Z"
+  }
+},
+{
+  "model": "network.comment",
+  "pk": 4,
+  "fields": {
+    "user": 10,
+    "post": 11,
+    "content": "YO STOP",
+    "timestamp": "2025-12-11T19:08:25.223Z"
+  }
+},
+{
+  "model": "network.comment",
+  "pk": 5,
+  "fields": {
+    "user": 5,
+    "post": 10,
+    "content": "i miss it too",
+    "timestamp": "2025-12-11T19:11:12.608Z"
   }
 }
 ]
