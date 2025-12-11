@@ -53,8 +53,8 @@ It provides a social feed with infinite scrolling, dynamic post interactions, re
 </p>
 <br>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Landuche/Portfolio/refs/heads/portfolio/Web/Django/social%20network/readme-assets/main-feed-mobile-light.PNG?token=GHSAT0AAAAAADD4CZ2JXHGLMIGVWZQJQOPE2JZNQ3A" alt="Light mode mobile feed" style="border: 1px solid #444; max-height:600px; width:auto;">
-  <img src="https://raw.githubusercontent.com/Landuche/Portfolio/refs/heads/portfolio/Web/Django/social%20network/readme-assets/main-feed-mobile-dark.PNG?token=GHSAT0AAAAAADD4CZ2JO6ND34QFDO2Y3OOQ2JZNQWA" alt="Dark mode mobile feed" style="border: 1px solid #444; margin-right: 10px; max-height:600px; width:auto;">
+  <img src="./readme-assets/main-feed-mobile-light.PNG" alt="Light mode mobile feed" style="border: 1px solid #444; max-height:600px; width:auto;">
+  <img src="./readme-assets/main-feed-mobile-dark.PNG" alt="Dark mode mobile feed" style="border: 1px solid #444; margin-right: 10px; max-height:600px; width:auto;">
 </p>
 
 ## Deployment Architecture
