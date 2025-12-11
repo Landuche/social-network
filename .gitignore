@@ -1,0 +1,25 @@
+# Python 
+__pycache__/
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Django generated
+staticfiles/
+media/
+staticfiles/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment files
+.env
+.env.local
+
+# OS / Editor
+.vscode/
+.prettier
