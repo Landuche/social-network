@@ -46,17 +46,6 @@ It provides a social feed with infinite scrolling, dynamic post interactions, re
 - **Testing:** Pytest + Django Test Client.
 - **Deployment:** Docker, Docker Compose, Gunicorn, Nginx, WhiteNoise.
 
-## Screenshots
-
-<p align="center">
-  <img src="./readme-assets/main-feed-light.PNG" alt="Light mode feed" style="border: 1px solid #444; max-width:70%; height:auto;">
-</p>
-<br>
-<p align="center">
-  <img src="./readme-assets/main-feed-mobile-light.PNG" alt="Light mode mobile feed" style="border: 1px solid #444; max-height:600px; width:auto;">
-  <img src="./readme-assets/main-feed-mobile-dark.PNG" alt="Dark mode mobile feed" style="border: 1px solid #444; margin-right: 10px; max-height:600px; width:auto;">
-</p>
-
 ## Deployment Architecture
 
 | Component             | Technology                               | Purpose                                      |
@@ -69,6 +58,17 @@ It provides a social feed with infinite scrolling, dynamic post interactions, re
 | Media/Thumbnails      | versatileimagefield + Nginx              | On the fly resizing, served directly         |
 | Configuration         | python-dotenv + dj-database-url          | Single codebase between local and docker     |
 | Containerization      | Docker + Docker Compose                  | Reproducible environment                     |
+
+## Screenshots
+
+<p align="center">
+  <img src="./readme-assets/main-feed-light.PNG" alt="Light mode feed" style="border: 1px solid #444; max-width:70%; height:auto;">
+</p>
+<br>
+<p align="center">
+  <img src="./readme-assets/main-feed-mobile-light.PNG" alt="Light mode mobile feed" style="border: 1px solid #444; max-height:600px; width:auto;">
+  <img src="./readme-assets/main-feed-mobile-dark.PNG" alt="Dark mode mobile feed" style="border: 1px solid #444; margin-right: 10px; max-height:600px; width:auto;">
+</p>
 
 ## Setup And Run
 
